@@ -33,7 +33,7 @@ class mailThread(threading.Thread):
         try:
             parser=SafeConfigParser()
             sig="""\n\n\n message sent via Notipy, personal email client.
-                          https://github.com/thekindlyone/notipy
+https://github.com/thekindlyone/notipy
             """
             self.message+=sig
             parser.read('d:/pythonary/notipy/notipy_config.ini')
